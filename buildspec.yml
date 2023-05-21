@@ -3,10 +3,11 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      java: latest
+      nodejs: 16
       
     commands:
         # install npm
+      - n 18
       - npm install
        
   build:
