@@ -1,26 +1,19 @@
 version: 0.2
 
 phases:
-  #install:
-    #runtime-versions:
-      #nodejs: 16
-      
-    #commands:
-        # install npm
-      #- n 18
-     # - npm install
- # phases:
   install:
+    runtime-versions:
+      nodejs: 16
+   
     commands:
-      - n 14.18.3
-
-  build:
-    commands:
-      - npm i #etc     
+        # install npm
+         - n 14.18.3
+        - npm install
+       
   build:
     commands:
         # run build script
-       # - npm run-script build
+        - npm run-script build
      
 artifacts:
   # include all files required to run application
