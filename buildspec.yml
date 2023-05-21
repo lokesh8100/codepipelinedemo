@@ -7,7 +7,7 @@ phases:
    
     commands:
         # install npm
-         - n 14.18.3
+         - n 14
         - npm install
        
   build:
